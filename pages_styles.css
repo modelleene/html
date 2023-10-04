@@ -1,0 +1,40 @@
+.categoryPage {
+    display: flex;
+}
+.categoryPageImg {
+    width: 45em;
+}
+.categoryPageImg img {
+    width: 100%;
+    height: 100vh;
+    padding: 0.5em;
+    position: sticky;
+    top: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.categoryPageMenu{
+    width: 55em;
+}
+.menu-category {
+    padding: 2rem;
+    background-color: #041408;
+    margin: 0.5rem 1rem 2rem 1rem;
+}
+.menu-category h2 {
+    color: #f89c68;
+}
+.menu-list {
+    padding-top: 1rem;
+    color: #f9d4bd;
+}
+.menu-list p {
+    padding: 0.5rem 0;
+    color: #fff;
+}
+.menu-list h3 {
+    padding-top: 0.5rem;
+}
+.menu-list span {
+    color: #f89c68;
+}

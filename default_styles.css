@@ -1,0 +1,53 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Apply a global font and background color */
+body {
+    font-family: "Monaco", monospace;
+    background-color: #311b15;
+    color: #E7F6F2;
+}
+
+/* Header styles */
+header {
+    background-color: #041408;
+    color: #f89c68;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 2em;
+}
+nav {
+    padding-top: 0.5em;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f9d4bd;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #041408;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}

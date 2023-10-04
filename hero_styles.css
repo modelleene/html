@@ -1,0 +1,43 @@
+/* Main content styles */
+
+.chefImg {
+    object-fit:cover;
+    width: 100%;
+    height: 30rem;
+}
+.slogan {
+    background-color: #041408;
+    color: #e8c0a8;
+    font-size: 1em;
+    text-align: center;
+    padding: 1em;
+    margin: 1em 8em;
+}
+.menuOptions {
+    margin: 0 1em 2em 1em;
+    background-color: #fff;
+}
+.menuRow {
+    object-fit:cover;
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+}
+.categoryDiv {
+    transition: 0.2s ease-in-out;
+}
+.categoryDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.categoryDiv:hover {
+    opacity: 0.85;
+}
+.firstCategory {
+    width: 40%;
+}
+.secondCategory {
+    width: 60%;
+}
+
